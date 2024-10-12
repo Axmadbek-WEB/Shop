@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 21px 0;
+    border-bottom: 1px solid black;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 15.13px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: black;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.btn {
+    padding: 6px 47px 6px 67px;
+    border-radius: 5px;
+    background: #FC004A;
+    color: white;
+    border: none;
+    gap: 3px;
+}
+.as{
+  width: 100%;
+}
+.hero{
+    padding: 63px 0;
+}
+.btn2{
+    font-size: 24px ;
+    border: none;
+    background-color: inherit;
+   display: none;
+}
+h1{
+    margin-top: 64px;
+}
+.card{
+    width: 23%;
+    box-shadow: 0px 4px 6px -4px #0000001A;
+box-shadow: 0px 10px 15px -3px #0000001A;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+.card img{
+    width: 100%;
+}
+.card p{
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+color: #FC004A;
+
+}
+.card h2{
+    margin: 12px 0;
+    font-size: 17.66px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+}
+.btn3{
+    background: #FC004A;
+    padding: 6px 10px 6px 10px;
+    border: none;
+    color: white;
+    font-size: 28px;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:800px){
+    .hero{
+        padding: 65px 15px;
+    }
+    .logo img{
+        display: none;
+    }
+    header{
+        padding: 20px 10px;
+    }
+    .card{
+
+        width: 32%;
+    }
+}
+
+@media(max-width:550px){
+    nav{
+        display: none;
+    }
+    .btn2{
+        display: block;
+    }
+    .card{
+        width: 48%;
+    }
+}
+
+
+
+
+
+
+
+
